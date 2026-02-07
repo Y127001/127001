@@ -9,3 +9,6 @@ Git是一个免费的系统
 Git is free software distributed under the GPL.
 
 Git has a mutable index called stage.
+
+Git tracks changes
+Git跟踪并管理修改
