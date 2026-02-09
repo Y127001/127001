@@ -1,6 +1,5 @@
 const net = require("net")
 
-
 const server = net.createServer((socket) => {
     socket.name = socket.remoteAddress + ":" + socket.remotePort
     if (socket.readyState === 'open') {
