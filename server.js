@@ -7,8 +7,8 @@ const server = net.createServer((socket) => {
     }
 
     socket.on('data', (data) => {
-        const message = data.toString()
-        console.log(messagek)
+	const message = data.toString()
+        console.log(message)
     })
 
     socket.on('close', function close() {
