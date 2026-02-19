@@ -18,6 +18,9 @@ const server = net.createServer((socket) => {
     socket.end('Hello')
 })
 
-server.listen(9090, 'localhost', () => {
+const host = 'localhost'
+const port = 9090
+
+server.listen(port, host, () => {
     console.log("The server is listening on localhost:9090")
 })
